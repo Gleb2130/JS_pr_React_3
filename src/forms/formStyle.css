@@ -1,0 +1,51 @@
+.form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #282a36; /* Цвет фона Dracula */
+    color: #bd93f9; /* Фиолетовый цвет Dracula для текста */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px; /* Установите ширину вашего выбора */
+    width: 100%;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container span {
+    color: #f8f8f2; /* Цвет текста меток Dracula */
+}
+
+.form-container input,
+.form-container textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bd93f9; /* Фиолетовая граница Dracula для ввода */
+    border-radius: 4px;
+    background-color: #282a36; /* Цвет фона Dracula для ввода */
+    color: #f8f8f2; /* Фиолетовый цвет Dracula для текста ввода */
+    width: 100%; /* Ширина инпутов 100%, чтобы они были в одной линии */
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: #bd93f9; /* Фиолетовый цвет Dracula для кнопки */
+    color: #f8f8f2; /* Белый цвет Dracula для текста кнопки */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #ff79c6; /* Темно-фиолетовый цвет Dracula при наведении на кнопку */
+}

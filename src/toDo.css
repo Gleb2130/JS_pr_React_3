@@ -1,0 +1,73 @@
+body {
+  font-family: 'Fira Code', monospace;
+  background-color: #282a36; /* Цвет фона Dracula */
+  color: #f8f8f2; /* Цвет текста Dracula */
+  margin: 0;
+}
+
+#book-list {
+  margin-top: 20px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 42, 54, 0.5); /* Прозрачный Dracula фон */
+}
+
+.modal-content {
+  background-color: #44475a; /* Цвет модального окна Dracula */
+  color: #f8f8f2; /* Цвет текста Dracula */
+  margin: 10% auto;
+  padding: 20px;
+  width: 50%;
+}
+
+button {
+  background-color: #bd93f9; /* Фиолетовый цвет Dracula для кнопки */
+  color: #f8f8f2; /* Цвет текста кнопки Dracula */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #ff79c6; /* Темно-фиолетовый цвет Dracula при наведении на кнопку */
+}
+
+.modal-content .close {
+  color: #6272a4; /* Цвет кнопки закрытия Dracula */
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modal-content .close:hover,
+.modal-content .close:focus {
+  color: #f8f8f2; /* Цвет текста кнопки закрытия Dracula */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.poster-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  width: 285px;
+  height: 300px;
+  object-fit: cover;
+}
